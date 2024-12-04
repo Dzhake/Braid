@@ -4,9 +4,9 @@ Collection of my modding guides for braid. All of them will refer to your braid'
 ..excuse my bad english..
 
 # Existing tutorials
-Please note that those usually only tell you how to start. This collection of guides tries to be better and complete version of those.
+Please note that existing tutorials usually only tell you how to start. This collection of guides tries to be better and complete version of those.
 
-https://www.reddit.com/r/braid/comments/1da1bo4/how_to_get_the_level_editor_working_in_2024/ - Everything from accessing editor to packing your mod.
+https://www.reddit.com/r/braid/comments/1da1bo4/how_to_get_the_level_editor_working_in_2024/ - Everything from accessing editor to packaging your mod.
 
 https://www.moddb.com/games/braid/tutorials/accessing-braids-editor-and-loading-mods - Editor hotkeys.
 
