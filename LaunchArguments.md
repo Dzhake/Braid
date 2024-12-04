@@ -1,3 +1,12 @@
+Some of descriptions are from `READ_ME.txt` written by JB himself.
+
+# Using arguments
+Simplest way to pass arguments (AKA launch arguments) when launching any executable is to create it's shortcut, select it, right-click, then press "Properties", and edit "Target". Arguments are string values separated by spaces, and there should be space after path to .exe, like this:
+
+![<Here should be image of shortcut's properties, but it's not displayed for some reason>](Images/ShortcutProperties.png)
+
+Braid reads arguments without order, the only thing which matters is that values for arguments with values should be right after those arguments.
+
 # Toggles
 Those arguments usually just toggle something, to use them just place them anywhere.
 For example: `-editor`.
@@ -10,7 +19,7 @@ For example: `-editor`.
 
 `-60fps`, `-30fps`, `-20fps`, `-15fps`, `-12fps`, `-10fps` - Bypass Braid's startup frame-rate check and force the game to try and run at this many frames per second.  If the number is too high for your computer, action in the game will be slowed down.  Because you are skipping the startup test, postprocessing will always be on.  If you want to turn it off (and thus possibly hit the frame rate target you are going for), use -no_post below.  If you press the 0 key in-game, you'll get some HUD text telling you what frame rate the game is trying to hit, how fast it is actually going, and whether postprocessing is turned on.  
 
-`-no_post` - Do not perform postprocessing effects.  This may make the game run more quickly on your graphics hardware, but time-oriented visual effects will be much simpler.  
+`-no_post` - Do not perform postprocessing effects.  This may make the game run more quickly on your graphics hardware, but time-oriented visual effects will be much simpler. (Instead of chrome change (grey/colorful screen) screen will be overlayed with blue/yellow colors)
 
 `-no_music` - Disable music.  
 
@@ -21,7 +30,8 @@ For example: `-editor`.
 Those arguments require some value passed. Add value as next argument.
 For example: `-width 1920`.
 
-`-language <string>` - Changes game's language to specified one. Values allowed by default: `english`, `french`, `german`, `italian`, `japanese`, `korean`, `polish`, `portuguese`, `russian`, `spanish`, `tchinese`, `czech`\*, `georgian`\*. \*Unofficial translations. Info is based on files in `data/strings/`, and may be inaccurate.
+`-language <string>` - Changes game's language to specified one. If you do not use one of these options, Braid will read the appropriate language setting from Windows (or from Steam if you are using Steam). Values allowed by default: `english`, `french`, `german`, `italian`, `japanese`, `korean`, `polish`, `portuguese`, `russian`, `spanish`, `tchinese`, `czech`\*, `georgian`\*.  
+\*Unofficial translations. Info is based on files in `data/strings/`, and may be inaccurate.
 
 `-width <number>`/`-height <number>` - Starts game with specified window width/height.
 
