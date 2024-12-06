@@ -37,6 +37,8 @@ Hotkeys listed here require `-editor` argument. See [Enabling Editor](EnablingEd
 
 `Left-click` - Select entity. Adds to selection when used with `Shift`
 
+`Ctrl`+`C`/`V` - copypaste entity. You can copypaste entities from world to world, but not from one game's window to another.
+
 `F8`/`G` - Deselect entity.
 
 `Q` - Changes border of selected entity from orange to blue. Purpose is not exactly knows, but I've noticed that when you try to resize "pieced image" you move it. When you using blue selection you cut it instead.

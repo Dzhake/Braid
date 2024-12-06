@@ -1,0 +1,1 @@
+this file will cover how to place entities, what editor buttons to the left do, and maybe something more.
