@@ -62,6 +62,6 @@ Hotkeys listed here require `-editor` argument. See [Enabling Editor](EnablingEd
 `Shift+C` - Change visible layer to `Collision`.  
 `Shift+P` - Change visible layer to `Particles`.  
 `Shift+F` - Change visible layer to `Foreground`.  
-`Shift+B` - ~~..obvious, isn't it?~~ Change visible layer to `Background`.
+`Shift+B` - Change visible layer to `Background`.
 
 Hold `Alt` to see all entities, no matter which layer is currently visible. Doesn't show hidden entities.

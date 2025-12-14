@@ -2,7 +2,7 @@ Unfortunately the game doesn't read custom `strings/` files, so you can't just r
 Instead, you have to write the text directly.
 
 Any book requires `Text` entity with `driven_by_story_page` checked.
-I Also recommend to check `no_pixel_snap`, because for some reason text looks WAY better if you check it.
+I Also recommend to check `no_pixel_snap`, because text looks WAY better if you check it.
 
 Then, you need `Story Page` entity. Instead of `story_name`, which uses text ID in vanilla, you write all the text directly.
 

@@ -31,7 +31,8 @@ Those arguments require some value passed. Add value as next argument.
 For example: `-width 1920`.
 
 `-language <string>` - Changes game's language to specified one. If you do not use one of these options, Braid will read the appropriate language setting from Windows (or from Steam if you are using Steam). Values allowed by default: `english`, `french`, `german`, `italian`, `japanese`, `korean`, `polish`, `portuguese`, `russian`, `spanish`, `tchinese`, `czech`\*, `georgian`\*.  
-\*Unofficial translations. Info is based on files in `data/strings/`, and may be inaccurate.
+\*Unofficial translations.  
+Info is based on files in `data/strings/`, and may be inaccurate.
 
 `-width <number>`/`-height <number>` - Starts game with specified window width/height.
 

@@ -1,0 +1,1 @@
+Here should be explanation of camera triggers :)
