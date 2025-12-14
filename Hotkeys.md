@@ -10,7 +10,7 @@ This file will list all known hotkeys for braid. Keep in mind that most of those
 `PrintScreen` - Take a screenshot and save it in the Braid folder.  You must have write permission to the Braid folder for this to work. (Based on READ_ME.txt from JB, didn't manage to get it working)
 
 # Require editor
-Hotkeys listed here require `-editor` argument. See [Enabling Editor](EnablingEditor.md) for more info.
+Hotkeys listed here require `-editor` argument. See [LaunchArguments](LaunchArguments.md) for more info.
 
 `F9` - Toggle particle's generation seed (Probably?).
 
